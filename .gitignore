@@ -1,0 +1,19 @@
+cat << 'EOF' > .gitignore
+# Ignore Datasets
+data/
+*.tar.gz
+*.zip
+
+# Ignore Model Checkpoints
+models/*.pt
+*.pth
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+# Ignore environment folders (if any)
+GGM_env/
+env/
+venv/
+EOF
